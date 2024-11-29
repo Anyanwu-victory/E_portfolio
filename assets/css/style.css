@@ -20,7 +20,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #f5f0f0 url("../img/implant tools.jpg") top right no-repeat; 
+  background: #f5f0f0 url("../img/coding-background.jpg") top right no-repeat; 
   background-size: cover;
   left: 0;
   right: 0;
@@ -107,7 +107,9 @@ h5 {
   padding: 0;
   margin: 0;
 }
-
+.text-bold {
+  font-weight: 800;
+}
 #header .social-links {
   margin-top: 40px;
   display: flex;
